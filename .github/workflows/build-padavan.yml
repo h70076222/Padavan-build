@@ -44,7 +44,7 @@ jobs:
     - name: Build Firmware
       env:
         TNAME: CR660x
-        KERNEL: 4.4
+        KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
